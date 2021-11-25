@@ -10,7 +10,7 @@ pipeline{
                 println "cloning the code from git hub"
             }
         }
-        stage("buid"){
+        stage("build"){
             steps{
                 println "build code"
                 sh "mvn clean package"
